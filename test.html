@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Widget Test Page</title>
+<style>
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:#f6f7f2;color:#23302c;line-height:1.7}
+  .wrap{max-width:720px;margin:0 auto;padding:48px 24px 120px}
+  h1{font-size:28px}
+  p{font-size:16px}
+  .box{background:#fff;border:1px solid #dfe8e1;border-radius:10px;padding:20px;margin:20px 0}
+  .price{font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1 id="test-title">Review Widget Test Page</h1>
+  <p id="test-lead">This page exists to check that widget.js attaches correctly to a real site. Try clicking the elements below to leave a comment.</p>
+  <div class="box">
+    <h2 id="test-h2">Sample card title</h2>
+    <p id="test-p">This is a paragraph you can leave a comment on. Turn on "Leave a comment" anywhere on the page, then click something.</p>
+    <button class="price" id="test-btn" type="button">Sample button</button>
+  </div>
+  <div class="box">
+    <p>Refresh the page (F5) and check that your comment is still there.</p>
+  </div>
+</div>
+
+<!-- Review widget: this one line is all you need -->
+<script src="widget.js"></script>
+</body>
+</html>
