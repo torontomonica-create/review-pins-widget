@@ -28,8 +28,8 @@
   /* ====== Config: fill in your Supabase project details here ======
      Find these in the Supabase dashboard under Project Settings > API.
      Only ever use the anon (public) key here. Never put a service_role key in this file. */
-  var SUPABASE_URL = "";       // e.g. https://xxxxxxxx.supabase.co
-  var SUPABASE_ANON_KEY = "";  // e.g. eyJhbGciOi... (anon/public key)
+  var SUPABASE_URL = "https://bkagianfkuexowijbrlo.supabase.co";       // e.g. https://xxxxxxxx.supabase.co
+  var SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJrYWdpYW5ma3VleG93aWpicmxvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODk3MDExMzMsImV4cCI6MjEwNTI3NzEzM30.46fGwRjxkI5uXNmA5AeyRC689c7KLX5HIxSJCLc9tKQ";  // e.g. eyJhbGciOi... (anon/public key)
 
   /* ====== Config: review mode ======
      Set to true to require ?review=<anything> in the URL before the widget
